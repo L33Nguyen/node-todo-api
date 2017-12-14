@@ -33,8 +33,7 @@ MongoClient.connect(
       {
         $set:{name:'Lê Nguyễn'}
         ,$inc:{age:6}
-      },
-      {
+      },{
         returnOriginal:false
       }).then((result)=>{console.log(result)});
   });
