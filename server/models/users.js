@@ -7,4 +7,4 @@ var User=mongoose.model('User',{
     minlength:1
   }
 });
-module.export = {User};
+module.exports = {User};
